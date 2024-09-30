@@ -1,6 +1,6 @@
-import {Header} from './Header/Header';
-import {Wrapper} from './Wrapper/Wrapper';
-import {Footer} from './Footer/Footer';
+import {Header} from './components/Header/Header';
+import {Wrapper} from './components/Wrapper/Wrapper';
+import {Footer} from './components/Footer/Footer';
 
 function App() {
  
