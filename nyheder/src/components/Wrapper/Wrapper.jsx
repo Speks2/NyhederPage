@@ -1,4 +1,4 @@
-
+import s from '../Wrapper/Wrapper.module.scss';
 
 
 
