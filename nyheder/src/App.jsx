@@ -7,9 +7,21 @@ function App() {
 
   return (
     <>
-     <Header />
      <Wrapper />
-     <Footer />
+     <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/alle" element={<Alle />} />
+      <Route path="/indland" element={<Indland />} />
+      <Route path="/udland" element={<Udland />} />
+      <Route path="/teknologi" element={<Teknologi />} />
+      <Route path="/sport" element={<Sport />} />
+      <Route path="/politik" element={<Politik />} />
+      <Route path="/samfund" element={<Samfund/>} />
+      <Route path="/*" element={<NotFound />} />
+    </Routes>
+    <Footer />
+    </BrowserRouter>
     </>
   )
 }
